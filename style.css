@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    background-image: url(./../taun/header-bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+header{
+    height: 10vh;
+    padding-top: 2%;
+}
+.left{
+    width: 50%;
+    display: inline-block;
+    height: 100%;
+}
+.right{
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+    height: 100%;
+    font-size: 1.5em;
+}
+.container1{
+   padding-top: 50px;
+}
+.left img{
+    width: 100%;
+}
+.right img{
+    height: 70%;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+main{
+    height: 60vh;
+    border: 30px gold solid;
+    margin-top: 10%;
+    text-align: center;
+}
+main>p>span{
+    color: gold;
+}
+main h1{
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 2%;
+}
+main>div{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 1.5em;
+}
+main>div>img{
+    vertical-align: bottom;
+}
+main > button{
+    border: none;
+    padding: 10px 15px;
+    background-color: gold;
+}
+.item{
+    width: 32%;
+    display: inline-block;
+    text-align: center;
+}
+.item img{
+    width: 80px;
+    height: 80px;
+}
+.seporation{
+    width: 100%;
+    height: 10px;
+    background-color: black;
+}
+.container-two{
+    width: 100%;
+    margin: 0 auto;
+}
+.hot{
+    margin: 20px 0px 60px 300px;
+}
+.day{
+    width: 100%;
+    display: inline-block ;
+}
+.cube-1{
+    position: absolute;
+    left: 80%;
+    border: 10px solid gold;
+    width: 80px;
+    height: 80px;
+}
+.text-day img{
+    display: inline-block;
+    width: 80%;
+    margin-left: 300px;
+}
+.text-day{
+    display: inline-block;
+    width: 49%;
+}
+.text-day>p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.text-day>p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.dayd{
+    margin-left: 200px;
+    margin-top: 80px;
+}
+.com{
+    border: 3px solid gold;
+    padding: 10px 15px;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.day-1{
+    width: 100%;
+    display: inline-block ;
+    margin-top: 50px;
+}
+.cube-2{
+    position: absolute;
+    left: 17%;
+    border: 10px solid gold;
+    width: 60px;
+    height: 60px;
+}
+.text-d1 img{
+    display: inline-block;
+    width: 80%;
+    margin-top: 50px;
+}
+/* .img-d1{
+    width: 100%;
+    height: 100%;
+} */
+.text-d1{
+    display: inline-block;
+    width: 49%;
+}
+.text-d1>p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.text-d1>p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.com-d1{
+    border: 3px solid gold;
+    padding: 10px 15px;
+    font-weight: bold;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.dayl{
+    margin-top: 20px;
+    margin-left: 300px;
+}
+.cube-3{
+    position: absolute;
+    left: 57%;
+    border: 10px solid gold;
+    width: 80px;
+    height: 80px;
+}
+.slide{
+    height: 100vh;
+    background-image: url(./../taun/3-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 60px;
+}
+.advantages{
+    height: 100vh;
+    width: 100%;
+}
+/* .hostel{
+    /* text-align: center;
+    width: 50%;
+    margin: 0 auto;
+} */
+.hostel h1{
+    margin: 50px 0px 50px 80px;
+    text-align: left;
+}
+.ad-hostel{
+    display: inline-block;
+    margin: 0px 35px 0px 35px;
+    text-align: left;
+}
+.ad-hostel img{
+    width: 40px;
+    height: 40px;
+}
+.ad-item{
+    display: block;
+    /* vertical-align: super; */
+    margin-left: 10px;
+}
+.know{
+    background-color: gold;
+    border: none;
+    padding: 20px 40px;
+    margin: 5px 0px 50px 200px;
+}
+.contact{
+    height: 100vh;
+    background-image: url(./../taun/fon_ost-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.elements{
+    margin: 30px 20px 100px 100px;
+}
+.eleleft{
+    display: inline-block;
+    width: 50%;
+}
+.eleright{
+    display: inline-block;
+    width: 49%;
+}
+.element{
+    margin: 40px 0px 40px 0px;
+}
+.element img{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+.element>span{
+    display: inline-block;
+    vertical-align: super;
+    margin-left: 15px;
+}
+section .container>h1{
+    position: relative;
+    margin: 70px 0px 0px 20px;
+}
+section .container>h1::before{
+    content: "";
+    background-color: black;
+    height: 1px;
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    left: -50px;
+}
+.adress-text{
+    width: 50%;
+    display: inline-block;
+    margin-top: 200px;
+}
+.adress-text{
+    width: 49%;
+    display: inline-block;
+}
+.adress-text>h1{
+    color: gold;
+    font-weight: normal;
+}
+.adress-text>h2{
+    color: snow;
+    font-weight: normal;
+}
+.adress-text>p{
+    color: snow;
+    /* font-weight: normal; */
+    margin: 30px 0px 50px 0px;
+}
+.adress-text>h2{
+    color: snow;
+    font-weight: normal;
+}
+.adress-text>h2>span{
+    color: gold;
+    font-weight: normal;
+}
+/* .adress-text>input{
+    margin-top: 60px;
+    margin-bottom: 5px;
+    padding: 10px 10px;
+    width: 70%;
+} */
+.in1{
+    margin-top: 35px;
+    margin-bottom: 5px;
+    padding: 15px 15px;
+    width: 70%;
+}
+.in2{
+    margin-top: 10px 0px 10px 0px;
+    margin-bottom: 5px;
+    padding: 10px 10px;
+    width: 70%;
+}
+.adress-text button{
+    border: none;
+    padding: 10px 15px;
+    width: 70%;
+    background-color: gold;
+}
+.phone{
+    display: inline-block;
+    text-align: center;
+    margin: 70px 50px 50px 250px;
+}
+.phone>h2{
+    color: gold;
+    margin: 50px 0xp 0px 50px;
+}
+.phone-img>img{
+    vertical-align: bottom;
+    width: 25px;
+    height: 25px    ;
+}
+.phone-img>span{
+    color: snow;
+    vertical-align: super;
+    font-weight: bold;
+}
+.connection{
+    height: 100vh;
+    background-image: url(./../taun/fon_ost-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.question h1{
+    color: gold;
+    font-weight: normal;
+}
+.question h2{
+    color: snow;
+    font-weight: normal;
+    margin-top: 15px;
+}
+.question h3{
+    color: gold;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.question h4{
+    color: snow;
+    font-weight: normal;
+    margin-top: 15px;
+}
+.question input{
+    margin-top: 10px;
+    padding: 10px 15px;
+}
+.question button{
+    border: none;
+    background-color: gold;
+    width: 25%;
+    margin-top: 10px;
+    padding: 10px 15px;
+}
+.question {
+    display: block;
+    width: 100%;
+    /* margin-top: 100px; */
+    text-align: center;
+}
+.nomber>img{
+    vertical-align: bottom;
+    width: 25px;
+    height: 25px;
+}
+.nomber>span{
+    color: snow;
+    vertical-align: super;
+    font-weight: bold;
+}
+.google-maps{
+    width: 100%;
+    height: 50vh;
+}
